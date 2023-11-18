@@ -13,7 +13,7 @@ export const HeroComponent = () => {
         <div className="mt-5">
           <a
             className="border-2 cursor-pointer hover:border-tersary duration-300 border-secundary px-10 py-2"
-            href="/contacto"
+            href="/"
           >
             ver mas
           </a>
