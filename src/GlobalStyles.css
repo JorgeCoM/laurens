@@ -1,0 +1,25 @@
+@keyframes borderGradientHover {
+    0%, 100% {
+      border-image-source: linear-gradient(to right, #3182ce, #e145de);
+      border-image-slice: 1;
+    }
+    100% {
+      border-image-source: conic-gradient(from 0deg, #54f9ff, #02b7ff);
+      background-position: 360deg 0;
+    }
+  }
+  
+  .border-gradient:hover {
+    border-width: 3px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid transparent; /* Establece un borde transparente para dar espacio al borde con gradiente */
+    animation: borderGradientHover 1.3s linear infinite;
+  }
+  
+  .border-gradient {
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+  
